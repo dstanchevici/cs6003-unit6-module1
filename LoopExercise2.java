@@ -12,8 +12,10 @@ public class LoopExercise2 {
 	// Use the ternary operator to add elements only if they are positive.
 
 	for (int i=0; i<A.length; i++) {
-	    int addend = (A[i] >= 0) ? A[i] : 0;
-	    sum += addend;
+	    //int addend = (A[i] >= 0) ? A[i] : 0;
+	    //sum += addend;
+
+	    sum += (A[i]>0) ? A[i] : 0;
 	}
 
 	System.out.println (sum);
