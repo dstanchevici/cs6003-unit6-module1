@@ -1,0 +1,10 @@
+public class TestCommanLine {
+
+    public static void main (String[] argv)
+    {
+	int totalLength = 0;
+	for (int i=0; i<argv; i++) {
+	    
+	}
+    }
+}
