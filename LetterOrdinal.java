@@ -9,7 +9,16 @@ public class LetterOrdinal {
 
     static int ordinal (char ch)
     {
-	// WRITE YOUR CODE HERE
+	if (ch >= 'a' && ch <= 'z') {
+	    return (int)ch - (int) 'a' + 1;
+	}
+	else if (ch >= 'A' && ch <= 'Z') {
+	    return (int)ch - (int) 'A' + 1;
+	}
+	else {
+	    System.out.println ("Not a letter");
+	    return -1;
+	}
 
     }
 
