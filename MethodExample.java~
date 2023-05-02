@@ -1,0 +1,20 @@
+public class MethodExample {
+
+    static void printHello ()
+    {
+	System.out.println ("Ok thn, hello");
+    }
+
+    static boolean areSame (int k, String intString)
+    {
+	try {
+	    if (Integer.parseInt(intString) == k) {
+		return true;
+	    }
+	    return false;
+	}
+	catch (NumberFormatException e) {
+	    return false;
+	}
+    }
+}
