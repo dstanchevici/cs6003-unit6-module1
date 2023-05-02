@@ -1,0 +1,12 @@
+
+public class Interleave {
+
+    public static void main (String[] argv)
+    {
+	System.out.println ( interleave("xx","oo"));          // xoxo
+	System.out.println ( interleave("aaaaa","bbbbbbbb")); // abababababbbb
+	System.out.println ( interleave("?| */"," |/*"));
+	// What does the last interleaved string mean?
+    }
+
+}
