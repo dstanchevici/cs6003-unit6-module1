@@ -1,0 +1,12 @@
+
+public class VarArgExample2 {
+
+    public static void main (String[] argv)
+    {
+	System.out.println ( max(1) );
+	System.out.println ( max(1,2) );
+	System.out.println ( max(1,2,3) );
+	System.out.println ( max(1,2,3,4) );
+    }
+
+}
